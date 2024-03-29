@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home/Projects</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="app.css"/>
+
+    </head>
+
+    <body>
+
+        <h1>Thinking Indigo <span class="owner-name">Erik Miller</span></h1>
+
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="about me.html">About Me</a>
+            </ul>
+        </nav>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project Title</h3>
+                <p>Description of project. <button class="learn-more" onclick="toggleProjectInfo('project1')">Expand Project Details</button></p>
+                <div id="project1" class="project-info">
+                    <img src="project-images.jpg" alt="Project Image" />
+                    <p>More detailed infomation about the project...</p>
+                </div>
+            </div>
+            <!--- Repeat for other projects -->
+        </section>
+
+    </body>
+    <script src="app.js"></script>
+</html>
